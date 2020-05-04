@@ -1,0 +1,32 @@
+.principal-section{
+background-color: #ececec;
+display: inline-flex;
+flex-direction: column;
+
+    &__article{
+        width: inherit;
+        padding: 1em;    
+        
+        &--container{
+            color: #222831; 
+        }
+        &--title{
+            font-family: 'Vollkorn';
+        }
+        &--subtitle{
+            color: #ef4b4b;
+            font-family: 'Bebas Neue', cursive;
+        }
+        &--img{
+            width: 100%;
+        }
+        }
+}
+
+@media screen and (min-width:640px){
+    .principal-section{
+        overflow: scroll;
+        grid-column-start: 1;
+        grid-column-end: span 3;
+    }
+}
