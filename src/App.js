@@ -1,18 +1,15 @@
 import React from "react";
 import "./App.scss";
 import Header from "./components/header/header";
-import Aside from "./components/aside/aside";
+import HomeLayout from "./Pages/Home/home";
 import Footer from "./components/footer/footer";
-import Hero from "./components/hero/hero";
-import Section from "./components/principal/principal";
+
 
 function App() {
   return (
-    <div className="general-container">
+    <div>
       <Header />
-      <Hero />
-      <Section />
-      <Aside />
+      <HomeLayout />
       <Footer />
     </div>
   );
