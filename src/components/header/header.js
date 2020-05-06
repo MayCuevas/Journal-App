@@ -1,23 +1,25 @@
 import React from "react";
 import "./header.scss";
+import items from "../../common/data/categories.json";
 
-const linksArray = [
-  "Economía",
-  "Politica",
-  "Mundo",
-  "Espectaculos",
-  "Covid-19",
-];
 
-const links = linksArray.map((String) => (
-  <a className="header-container__navbar--link">{String}</a>
+const links = items.map((item) => (
+  <li className="menu__list--link"><a href="">{item}</a></li>
 ));
-
 const Header = (props) => {
   return (
     <header className="header-container">
       <p className="header-container__title">Fake News Portal</p>
-      <nav className="header-container__navbar">{links}</nav>
+      <div className="menu-wrapper">
+        <input type="checkbox" className="toggler" />
+          <div className="hamburger"><div className="hamburger--line"></div></div>
+            <div className="menu">
+            <div className="menu__ul-wrap">
+                  <ul className="menu__list">{links}</ul>
+            </div>
+            </div>
+          
+        </div>
     </header>
   );
 };

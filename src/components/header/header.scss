@@ -4,36 +4,195 @@
   color: #ececec;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-end;
   padding:.5em;
   position: sticky;
   top:0;
   box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.50);
 
-  &__navbar{
-    display: none;
-
-    &--link{
-      padding: 1em;
+  .menu-wrapper{
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 1;
+    .toggler{
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 2;
+      cursor: pointer;
+      width: 50px;
+      height: 50px;
+      opacity: 0;
+      
+      &:checked + .hamburger >div{
+          transform: rotate(135deg);
+          &:before{
+            top:0;
+            transform: rotate(90deg);
+          } 
+      }
+      &:checked + .hamburger >div:before{
+        top:0;
+        transform: rotate(90deg);
+      }
+      &:checked + .hamburger >div:after{
+        top:0;
+        transform: rotate(90deg);
+      }
+      &:checked ~ .menu{
+       
+          visibility: visible;
+          .menu__ul-wrap{
+           transform: scale(1);
+           transition: .5s ease;
+           .menu__list{
+             opacity: 1;
+           }
+         }
+      
+   }
     }
-  }
+   
+    .hamburger{
+      position: absolute;
+      top:0;
+      left:0;
+      z-index: 1;
+      width: 20px;
+      height: 20px;
+      padding: .5em;
+      background-color: transparent;
+      display: flex;
+      justify-content: center;
+      align-items: center;
 
+      .hamburger--line{
+        position: relative;
+        width: 100%;
+        height: 3px;
+        background-color: white;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.4s ease;
+
+        &:before{
+          content:'';
+          position: absolute;
+          z-index: 1;
+          top: -10px;
+          width: 100%;
+          height: 3px;
+          border-radius: 5px;
+          background: inherit;
+        }
+        &:after{
+          content:'';
+          position: absolute;
+          z-index: 1;
+          top:10px;
+          width: 100%;
+          height: 3px;
+          border-radius: 5px;
+          background: inherit;
+        }
+        
+      }
+    }
+    .menu{
+      position: fixed;
+      top:0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      visibility: hidden;
+       overflow: hidden;
+      display: flex;
+      align-items: center;
+       justify-content: center;
+      flex-direction: column;
+     .menu__ul-wrap{
+      background: rgba(0,0,0,.7);
+      //border-radius: 50%;
+      width: 200vw;
+      height: 200vh;
+      flex: none;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      transform: scale(0);
+      transition: all 0.4s ease;
+      }
+      &__list{
+        text-align: center;
+        max-width: 90vw;
+        max-height: 100vh;
+        opacity: 0;
+        transition: opacity 0.4s ease;
+        display: flex;
+        flex-direction: column;
+        &--link{
+          list-style: none;
+          color:white;
+          font-size: 1.5rem;
+          padding: 1rem;
+          font-family: 'Bebas Neue';
+          font-size: 2em;
+        }
+      }
+     }
+     .menu__list--link{
+      a{
+        text-decoration: none;
+        color: white;
+       
+      }
+      &:hover{
+        transform: scale(1.2);
+        transition: all 0.3s ease;
+      }
+  }
+  }
 }
 @media screen and (min-width:640px){
   .header-container{
     grid-column-start: 1;
     grid-column-end : span 4;
     
-    &__navbar{
-      display: block;
-
+   
       &--link:hover{
         background-color: black;
         height: 100%;
       }
 
     }
-
+    .menu-wrapper{
+    .menu{
+      display: flex;
+      position: inherit;
+      width: 50%;
+      height: 5%;
+      &__ul-wrap{
+          position: inherit;
+      visibility: visible;
+      display: flex;
+      flex-direction: row;
+      width: inherit;
+      height: inherit;
+      opacity: 1;
+      transform: scale(1);
+      width: inherit;
+      }
+    .toggler{
+      display: none;
+    }
+    .hamburger{
+      visibility: hidden;
+      display: none;
+    }
   }
+}
   
 }

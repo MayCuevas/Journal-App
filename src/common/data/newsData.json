@@ -1,0 +1,74 @@
+[
+        {
+            "category":"Covid-19",
+            "date": "28/04/2020 - 18:29",
+            "title":"Es falso que Tasuku Honjo, Premio Nobel de Medicina,dijo que el coronavirus no es natural",
+            "subtitle":"El doctor japonés, experto en investigaciones sobre el tratamiento del cáncer, emitió un comunicado desmintiendo tal afirmación.",
+            "mainText":"Circula en Facebook una publicación que asegura que Tasuku Honjo, inmunólogo japonés ganador del Premio Nobel de Medicina por sus investigaciones en la inhibición de la regulación inmune negativa (un proceso que ayuda al tratamiento del cáncer) declaró que el nuevo coronavirus “no es natural”. Sin embargo, el mismo Honjo aclaró en un comunicado que las afirmaciones que se le atribuyen son falsas. El posteo (ver acá) cita una supuesta declaración del médico japonés a medios de comunicación (sin especificar cuáles) en las que, entre otros conceptos, sostiene que, “basado en todo mi conocimiento e investigación hasta la fecha, puedo decir esto con el 100% de confianza de que Corona no es natural” (sic).",
+            "image":"/falsaDeclaracionNobel.jpg",
+            "autor":" Ignacio Corral"
+        },
+        {
+            "category":"Covid-19",
+            "date": "25/04/2020 - 19:54",
+            "title":"No hay evidencia de que la nicotina protege del coronavirus",
+            "subtitle":"El estudio pertenece a un trabajo conjunto entre el Instituto Pasteur de París y el Hospital de París.",
+            "mainText":"Circuló en redes sociales y distintos medios de comunicación publicaron que la nicotina (alcaloide que se encuentra en la planta del tabaco) podría proteger a las personas del coronavirus que provoca la COVID-19. El contenido fue publicada por varios portales de la Argentina que no lo aseguraron en forma categórica, pero lo plantearon como posibilidad en tiempo condicional.La publicación que se cita como fuente sostiene que, si bien “fumar tiene graves consecuencias patológicas y sigue siendo un grave peligro para la salud, en entornos controlados los agentes nicotínicos podrían proporcionar un tratamiento eficaz para una infección aguda como COVID-19”.El estudio pertenece a un trabajo conjunto entre el Instituto Pasteur de París y el Hospital de París y fue publicado en “Qeios Work”, plataforma que se autodefine como “colaborativa” y donde los investigadores publican sus trabajos “sin demora” para que sean revisados por otros pares, algo que hasta la publicación de esta nota no sucedió.",
+            "image":"/tabaco.jpg",
+            "autor":"Ignacio Corral"
+        },
+        {
+            "category":"Economía",
+            "date": "22/04/2020 - 18:29",
+            "title":"Es falso el video que afirma que los billetes de $ 100 no tienen numeración",
+            "subtitle":"El video viral sólo muestra la parte de los billetes en la que no se imprime su numeración.",
+            "mainText":"Circula por WhatsApp y por Facebook un video en el que una persona filma varios billetes de $ 100 que tienen en el diseño la imagen de un ciervo llamado “taruca”. El video que circula es acompañado de un texto que sostiene que estos supuestos billetes sin número se imprimieron así para que haya una “emisión descontrolada”, tomando como excusa la pandemia del coronavirus.Sin embargo, todo esto es falso: en el video únicamente se filma el anverso del billete, mientras que la numeración de este diseño está al reverso, como indica el propio sitio del Banco Central de la República Argentina (BCRA). Además, si no tuvieran numeración no tendrían validez legal para realizar compras u otras transacciones.",
+            "image":"/billetes.png",
+            "autor":"Martín Slipczuk-Imanol Subiela Salvo"
+        },
+        {
+            "category":"Salud",
+            "date": "28/04/2020 - 18:29",
+            "title":"Personal sanitario infectado: la Argentina no está primera a nivel mundial y, hasta ahora, no puede probarse que esté entre los países con mayor tasa",
+            "subtitle":"Circula en varias plataformas que el país lidera el ranking global del personal de salud infectado por coronavirus",
+            "mainText":"Circula en redes sociales y WhatsApp una afirmación de la Federación Sindical de Profesionales de la Salud de la República Argentina (Fesprosa) (que fue replicada por sitios como La Izquierda Diario -que cambió su título por otro que es insostenible-, el Tribuno de Salta, Big Bang News y ANRed) donde se indica que la Argentina “tiene la tasa más alta de personal de salud infectado con coronavirus a nivel mundial”. Otros medios, como Clarín, El Destape y MDZ Online, publicaron notas señalando que el país se encuentra entre las naciones con mayor tasa de médicos contagiados.La afirmación que señala que la Argentina está primera a nivel global en contagios de personal sanitario es falsa. Surge de un cálculo mal realizado por la Fesprosa al comparar a España con la Argentina en días diferentes. La desinformación ya tiene más de 21 mil compartidos en Facebook",
+            "image":"/personal-de-salud-contagios.png",
+            "autor":"Rosario Marina"
+        },
+        {
+            "category":"Espectaculos",
+            "date": "28/04/2020 - 18:29",
+            "title":"Es falsa la carta de Lanata a Macri que se viralizó en redes sociales",
+            "subtitle":"El mensaje circulaba por redes sociales previamente sin la firma del conductor de radio y tv.",
+            "mainText":"Circula por redes sociales y WhatsApp una carta pública dirigida al presidente de la Nación, Mauricio Macri, supuestamente firmada por el periodista Jorge Lanata. Sin embargo, Reverso pudo confirmar que esto es falso.En Facebook, la carta fue compartida más de 30 mil veces (ver acá, acá y acá). En Twitter, la cuenta @LanatoForever, que se identifica como cuenta no oficial, también compartió el texto.La autenticidad del mensaje fue desmentida a Reverso por la ex esposa del periodista y su productora, Andrea Rodríguez, ya que Lanata está internado. Además, la carta fue desmentida a este medio por el equipo de Comunicación de Mauricio Macri, supuesto receptor de la misiva, que indicó no tener ningún indicio de ese mensaje.",
+            "image":"/lanata-macri.png",
+            "autor":"Lucia Martines - Victoria Leiva"
+        },
+        {
+            "category":"Deportes",
+            "date": "28/04/2020 - 18:29",
+            "title":"Messi vuelve a atizar desde las redes sociales por unas ‘fake news’",
+            "subtitle":"EL ENFADO DEL ‘10’",
+            "mainText":"Leo Messi se está acostumbrando a dar otro uso a las redes sociales. Más allá de mostrar imágenes y compartir el lado más personal de su vida con sus fans, el astro argentino también ha aprendido a sacarle provecho para atizar a quien cree merecerlo cuando lo considera apropiado.Su última ‘víctima’ es TNT Sports, un canal de televisión argentino que habría anunciado dos noticias falsas, según el jugador del Barça. Por ese motivo decidió publicar un story en Instagram, precisamente para desmentir las dos fake news de las cuales era protagonista.En la versión latinoamericana, la primera noticia de TNT Sports tenía que ver con su futuro lejos de Barcelona. En las últimas semanas se ha extendido el rumor de un posible interés del Inter de Milán. De hecho, el expresidente Massimo Moratti apuntaba a que Messi no era “un sueño prohibido” para el club nerazzurro . Según estas informaciones, el rosarino ficharía por el Inter acompañado de Thiago Alcántara, canterano del Barça y actualmente en el Bayern. “Mentira número uno”, escribió Messi.La otra noticia aseguraba que la fianza de 1,5 millones de euros que pagó Ronaldinho para poder salir de la cárcel en Paraguay en realidad la había pagado Messi desde una cuenta de Barcelona. “¿La habrá pagado Messi? ¿Volverán a jugar juntos?”, se preguntaban. “Mentira número dos”, añadió Messi para luego confirmar su malestar. “Lo que dijeron en este mismo medio sobre Newell’s hace una semanas también era falso. Menos mal que nadie les cree...”",
+            "image":"./messi.jpg",
+            "autor":""
+        },
+        {
+            "category":"",
+            "date": "28/04/2020 - 18:29",
+            "title":"Las falsas 'cuentas falsas' de la Policía: no hay 1,5 millones de 'bots' con bulos sobre el Covid",
+            "subtitle":"UN COMISARIO FACILITÓ EL DATO EN MONCLOA",
+            "mainText":"Ni la Policía Nacional ni ningún otro organismo del Ministerio del Interior han encontrado un millón y medio de cuentas creadas en redes sociales para difundir noticias falsas sobre el coronavirus, aunque la cifra se repite desde hace dos semanas en multitud de informaciones y ha sido utilizada recurrentemente por el Gobierno para sostener su particular batalla contra las 'fake news', coincidiendo con la crisis del Covid-19 y la declaración del estado de alarma.La cifra apareció por primera vez el 5 de abril. Solo un día después, el ministro de Justicia, Juan Carlos Campo, anunció que estaba trabajando en una reforma del Código Penal para perseguir la difusión de bulos. El 9 de abril, Pedro Sánchez acusó en el Congreso al líder de Vox, Santiago Abascal, de “tener millares de 'bots” trabajando para él, y otros dirigentes socialistas, como Adriana Lastra, hicieron extensiva la acusación a todo el centro derecha. El día 16, el CIS publicó un barómetro que planteaba en una de sus preguntas si se debía limitar la libertad de información para impedir la proliferación de bulos. Y ese mismo día 16, el PSOE presentó una denuncia contra Vox ante la Fiscalía por la supuesta publicación de noticias falsas en redes sociales.El supuesto millón y medio de perfiles descubiertos por la Policía para distribuir 'fake news' fue el detonante de la estrategia. En teoría, el dato no podía tener un origen más fiable. Ese 5 de abril, el representante de la Policía Nacional en la rueda de prensa diaria que ofrecen en Moncloa los miembros del comité de expertos del Covid-19, José García Molina, subdirector general de Logística e Innovación, explicó que su cuerpo estaba dedicando parte de sus esfuerzos a luchar contra la desinformación. “Nuestras unidades especializadas rastrean continuamente las redes para detectar esas noticias falsas y desmentirlas a través de las líneas de comunicación de nuestros perfiles @policía y @policianacional”, manifestó. “Además, recientemente hemos publicado una guía para evitar ser manipulados por las 'fake news'. Se trata de recomendaciones sencillas que nos van a ayudar a saber cuándo nos encontramos ante un tipo de noticias fraudulentas, incorrectas, para poder identificarlas antes de darles credibilidad y no compartirlas”.Justo después proporcionó el dato. “Y relacionado con ello, queríamos prevenirles de que se ha detectado la creación de más de un millón y medio de cuentas en redes sociales relacionadas con el Covid-19. Perfiles dirigidos exclusivamente a crear o manipular contenidos 'spam'. Tenemos que ser conscientes de que la responsabilidad de estos mensajes falsos es de todos. No tenemos que contribuir a convertirlos en virales”, dijo el comisario de la Policía Nacional.La afirmación desencadenó la publicación de decenas de noticias que atribuían a la Policía Nacional el hallazgo del millón y medio de cuentas falsas y apuntaló las sospechas que ya había vertido Moncloa sobre las redes sociales. Nadie desmintió esas informaciones. Pero las declaraciones del comisario sobre las cuentas que difunden bulos son, paradójicamente, un bulo.Expertos policiales en ciberdelitos señalan a El Confidencial que el dato anunciado en la comparecencia del 5 de abril carece de lógica. Corroboran que se han detectado perfiles inventados para difundir en España contenido relacionado con la pandemia, pero explican que se trata de una cifra muy inferior a la anunciada y que no todas las cuentas localizadas están bajo sospecha por propagar mentiras.",
+            "image":"./ministro-f-grande-marlaska.jpg",
+            "autor":"Jose Maria Olmo"
+        },
+        {
+            "category":"05/04/2020",
+            "date": "28/04/2020 - 18:29",
+            "title":"No, la COVID-19 no es un exosoma y la pandemia no se relaciona con las señales de 5G",
+            "subtitle":"No hay evidencia científica que respalde lo que afirma una publicación viral.",
+            "mainText":"ircula en Facebook una nota titulada de la siguiente manera: “El covid-19 no es un virus es un exosoma influido por la contaminación electromagnética (sic.)”. Este artículo fue publicado por un sitio español a comienzos de abril último. Sin embargo, lo que dice es falso: los especialistas explicaron a Chequeado que la COVID-19 efectivamente surge de un virus que tiene una composición totalmente diferente, que ya se conoce. Además, como explicamos en esta nota, no hay evidencia que sostenga que la pandemia está vinculada a las señales 5G.Esta nota tuvo más de 30 mil interacciones en Facebook, según los datos que ofrece la herramienta Crowdtangle, utilizada para medir el impacto del contenido que circula en la red social. La publicación fue compartida en las siguientes páginas: “Revelación Ufológica”, “COMUNIDAD DE SAN BLAS (sic.)”, “REPTILIANOS ENTRE NOSOTROS (sic.)” y “MÉXICO LIBRE DE CORRUPCIÓN”.La versión de que la “contaminación electromagnética” de las antenas 5G tiene relación con la pandemia ya circuló antes. Como explicamos en esta nota no hay evidencia científica que sostenga esta afirmación y, además, ya se comprobó que la COVID-19 es producida por el nuevo coronavirus y no por las señales 5G.",
+            "image":"/exosomas.png",
+            "autor":"Imanol Subiela Salvo"
+        }
+]
