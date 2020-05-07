@@ -1,10 +1,10 @@
 import React from "react";
 import "./header.scss";
 import items from "../../common/data/categories.json";
-
+import {Link} from "react-router-dom";
 
 const links = items.map((item) => (
-  <li className="menu__list--link"><a href="">{item}</a></li>
+  <Link to="/news"><li className="menu__list--link">{item}</li></Link>
 ));
 const Header = (props) => {
   return (

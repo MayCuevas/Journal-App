@@ -5,12 +5,13 @@
     justify-content: space-between;
     background-color: #222831;
     color: #ececec;
+    grid-row-start: 3;
 }
 
 @media screen and (min-width:640px){
   
     .footer{
+   
       padding: .7em;
-     
     }
   }
