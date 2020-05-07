@@ -2,11 +2,10 @@
 background-color: #ececec;
 display: inline-flex;
 flex-direction: column;
-
     &__article{
         width: inherit;
         padding: 1em;    
-        width: 50%;
+        width: 90%;
         &--container{
             color: #222831; 
         }
@@ -26,6 +25,9 @@ flex-direction: column;
 @media screen and (min-width:640px){
     .principal-section{
         width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         grid-column-start: 1;
         grid-column-end: span 3;
     }

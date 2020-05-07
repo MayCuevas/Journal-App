@@ -6,20 +6,25 @@
   flex-direction: row;
   justify-content: flex-end;
   padding:.5em;
-  position: sticky;
+  width: 100%;
   top:0;
   box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.50);
+  position: absolute;
+  z-index: 1;
+  &__title{
+    padding-right: 2em;
+  }
 
   .menu-wrapper{
-    position: fixed;
+
     top:0;
     left: 0;
-    z-index: 1;
+  
     .toggler{
       position: absolute;
       top: 0;
       left: 0;
-      z-index: 2;
+      z-index: 3;
       cursor: pointer;
       width: 50px;
       height: 50px;
@@ -113,6 +118,7 @@
       align-items: center;
        justify-content: center;
       flex-direction: column;
+
      .menu__ul-wrap{
       background: rgba(0,0,0,.7);
       //border-radius: 50%;
@@ -125,6 +131,7 @@
       transform: scale(0);
       transition: all 0.4s ease;
       }
+
       &__list{
         text-align: center;
         max-width: 90vw;
@@ -133,6 +140,7 @@
         transition: opacity 0.4s ease;
         display: flex;
         flex-direction: column;
+
         &--link{
           list-style: none;
           color:white;
