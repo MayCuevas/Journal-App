@@ -1,9 +1,9 @@
 import React from "react";
 import "./principal.scss";
-import news from "../../common/data/newsData.json";
+import newsMock from "../../common/services/mockService"
 
-
-const info = news.map((item) => (
+const mock = newsMock;
+const info = mock.map((item) => (
   <article className="principal-section__article">
     <img
       className="principal-section__article--img"
