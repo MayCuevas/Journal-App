@@ -29,6 +29,7 @@ const HomeLayout = () =>{
       <div className="general-container">
         <Hero />
         <Section />
+
         <Aside news={data} />
       </div>
     );
