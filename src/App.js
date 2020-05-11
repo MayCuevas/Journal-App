@@ -4,6 +4,7 @@ import Header from "./components/header/header";
 import HomeLayout from "./Pages/Home/home";
 import Footer from "./components/footer/footer";
 import NewsLayout from "./Pages/News/news";
+import ContactLayout from "./Pages/Contact/contact";
 import {Switch, Route} from 'react-router-dom';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Header />
         <Switch>
           <Route path="/news" component={NewsLayout} />
+          <Route path ="/contact" component={ContactLayout} />
           <Route path="/" exact component={HomeLayout} />
         </Switch>
       <Footer />

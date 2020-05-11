@@ -9,6 +9,7 @@ const links = items.map((item) => (
 const Header = (props) => {
   return (
     <header className="header-container">
+      <Link to="/contact"><p>Contact Us </p></Link>
       <Link to="/"><p className="header-container__title">Fake News Portal</p></Link>
       <div className="menu-wrapper">
         <input type="checkbox" className="toggler" />
