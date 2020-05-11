@@ -21,18 +21,25 @@ const dataArray = [
   },
 ];
 
-const info = dataArray.map((data) => (
+/* const info = dataArray.map((data) => (
   <div className="news">
     <h2 className="news__subtitle">{data.category}</h2>
     <h1 className="news__title">{data.title}</h1>
     <img className="news__img" alt="aside-news-image" src={process.env.PUBLIC_URL + data.img} />
   </div>
-));
+)); */
 
-const Aside = () => {
+const Aside = ({news}) => {
   return <aside className="aside-lastest">
     <div className="news-wrapper">
-      {info}
+      <h2>World-news</h2>
+           {news.map((data) => (
+      <div className="news">
+        <h2 className="news__subtitle">{data.title}</h2>
+        <h1 className="news__title">{data.content}</h1>
+        <img className="news__img" alt="aside-news-image" src={data.urlToImage} />
+      </div>
+    ))} 
     </div>
     </aside>;
 };
