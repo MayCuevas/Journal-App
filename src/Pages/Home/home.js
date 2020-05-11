@@ -4,7 +4,7 @@ import "./home.scss";
 import Aside from "../../components/aside/aside";
 import Hero from "../../components/hero/hero";
 import Section from "../../components/principal/principal";
-
+import mockService from "../../common/services/mockService";
 
 
 
@@ -13,7 +13,7 @@ const HomeLayout = () =>{
   const [data, setData] = useState([]);
   let newsData = [];
   useEffect(() => {
-    apiService();
+   process.env.REACT_APP_MOCK === 'true' ? setData(mockService) : apiService();
   },[]);
 
   const apiService = async () =>{
