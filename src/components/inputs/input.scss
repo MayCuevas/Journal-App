@@ -1,0 +1,39 @@
+
+        .submit-input{
+            margin: 1em;
+            padding: .4em 1em;
+            background-color: orange;
+            border: none;
+            border-radius: 5px;
+            color:white;
+            box-shadow: none;
+        }
+        .general-input{
+            padding: .5em;
+            margin: 1em;
+            background-color: #ececec;;
+            border : solid 1px gray;
+            border-radius: 5px;
+
+            &__error{
+                background-color: #ececec;
+                padding: .5em;
+                margin: 1em;
+                border: solid 1px red;
+                border-radius: 5px;
+            }
+        }
+        .message-input{
+            padding: 3em;
+            margin: 1em;
+            border-radius: 5px;
+            background-color: #ececec;
+            
+            &__error{
+                background-color: #ececec;
+                padding: 3em;
+                margin: 1em;
+                border: solid 1px red;
+                border-radius: 5px;
+            }
+        }

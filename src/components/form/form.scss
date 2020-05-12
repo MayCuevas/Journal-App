@@ -4,30 +4,17 @@
    align-items: center;
    justify-content: center;
    align-self: center;
+   color: #ececec;
    width: 100%;
    justify-self: center;
    padding-top : 4em;
+   background-color: #222831;
    
     .contact-form{
-
         padding : 2em;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-
-        &__button{
-            margin: 1em;
-            padding: .4em 1em;
-            background-color: orange;
-            border: none;
-            border-radius: 5px;
-            color:white;
-            box-shadow: none;
-        }
-        &__input{
-            padding: .5em;
-            margin: 1em;
-        }
     }
 }
