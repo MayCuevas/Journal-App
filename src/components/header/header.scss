@@ -13,12 +13,13 @@
   z-index: 1;
   grid-row-start: 1;
   grid-row-end: 1;
-  Link{
-    text-decoration: none;
-    text-emphasis: none;
-  }
-  &__title{
+
+ 
+  &__titles{
     padding-right: 2em;
+    color: white;
+    text-decoration: none;
+    padding : .2em;
   }
 
   .menu-wrapper{
@@ -38,6 +39,7 @@
       
       &:checked + .hamburger >div{
           transform: rotate(135deg);
+
           &:before{
             top:0;
             transform: rotate(90deg);
@@ -52,11 +54,12 @@
         transform: rotate(90deg);
       }
       &:checked ~ .menu{
-       
           visibility: visible;
+
           .menu__ul-wrap{
            transform: scale(1);
            transition: .5s ease;
+
            .menu__list{
              opacity: 1;
            }
@@ -99,6 +102,7 @@
           border-radius: 5px;
           background: inherit;
         }
+
         &:after{
           content:'';
           position: absolute;
@@ -163,6 +167,7 @@
         color: white;
        
       }
+
       &:hover{
         transform: scale(1.2);
         transition: all 0.3s ease;
@@ -188,6 +193,7 @@
       position: inherit;
       width: 50%;
       height: 5%;
+
       &__ul-wrap{
           position: inherit;
       visibility: visible;
@@ -199,9 +205,11 @@
       transform: scale(1);
       width: inherit;
       }
+
     .toggler{
       display: none;
     }
+    
     .hamburger{
       visibility: hidden;
       display: none;

@@ -4,9 +4,16 @@
 }
 
 .aside-lastest {
-  background-color: #ececec;
+  background-color: #222831;
+  color: #ececec;
   display: inline-flex;
   flex-direction: column;
+
+  .news-wrapper{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
   .news {
     display: flex;
@@ -14,11 +21,13 @@
     justify-content: center;
     align-items: center;
     border: 1px solid lightgray;
+    color: #ececec;
     padding: 2em;
     margin: 0.5em;
 
     &__img {
       width: 100%;
+      border-radius: 5px;
     }
 
     &__subtitle {
@@ -29,7 +38,7 @@
     }
 
     &__title {
-      color: #222831;
+      color: #ececec;
       margin-bottom: 0.4em;
       font-family: 'Vollkorn';
       text-align: center;
@@ -38,6 +47,7 @@
 
   }
   
+  }
 }
 
 
