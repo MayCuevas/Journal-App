@@ -9,12 +9,14 @@ const links = items.map((item) => (
 const Header = (props) => {
   return (
     <header className="header-container">
-      <Link to="/contact" className="header-container__titles">
-        <p>Contact Us </p>
-      </Link>
-      <Link to="/" className="header-container__titles" >
-        <p>Fake News Portal</p>
-      </Link>
+        <div className="header-container__titles">
+        <Link to="/contact" className="header-container__title">
+          <p>Contact Us </p>
+        </Link>
+        <Link to="/" className="header-container__title" >
+          <p>Fake News Portal</p>
+        </Link>
+      </div>
       <div className="menu-wrapper">
         <input type="checkbox" className="toggler" />
           <div className="hamburger"><div className="hamburger--line"></div></div>

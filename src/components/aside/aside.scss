@@ -14,16 +14,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 
   .news {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid lightgray;
+    border: 1px solid #151b24;
+    border-radius:10px;
     color: #ececec;
     padding: 2em;
     margin: 0.5em;
+    background-color: #151b24;
 
     &__img {
       width: 100%;

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./form.scss";
 
 import Input from "../inputs/input";
@@ -10,7 +10,7 @@ const Form = () => {
 
     return (
         <div className="contact-holder">
-            <h1>Contactanos</h1>
+            <h1 className="contact-title">Contactanos</h1>
             <form  className="contact-form">
                 <Input value={inputData.inputEmail} />
                 <Input value={inputData.inputMessage} />

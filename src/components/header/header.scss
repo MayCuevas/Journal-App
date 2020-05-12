@@ -13,12 +13,18 @@
   grid-row-start: 1;
   grid-row-end: 1;
   grid-column-end: span 4;
- 
+  box-sizing: border-box;
   &__titles{
+   display: flex;
+   flex-direction: row;
+   padding-right: 2em;
+
+  }
+  &__title{
     padding-right: 2em;
     color: white;
     text-decoration: none;
-    padding : .2em;
+    padding-right : 2em;
   }
 
   .menu-wrapper{
@@ -117,15 +123,17 @@
     }
     .menu{
       position: fixed;
+      padding-left: 10em;
+      grid-row-start: 1;
       top:0;
       left: 0;
       width: 100%;
       height: 100%;
       visibility: hidden;
-       overflow: hidden;
+      overflow: hidden;
       display: flex;
       align-items: center;
-       justify-content: center;
+      justify-content: center;
       flex-direction: column;
 
      .menu__ul-wrap{

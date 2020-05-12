@@ -9,9 +9,12 @@
    justify-self: center;
    padding-top : 4em;
    background-color: #222831;
-   
+   .contact-title{
+       color: #ececec;
+       font-family: 'Vollkorn';
+   }
     .contact-form{
-        padding : 2em;
+        padding : 1em;
         display: flex;
         flex-direction: column;
         justify-content: center;

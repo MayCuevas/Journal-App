@@ -12,27 +12,42 @@ import Footer from "../../components/footer/footer";
 
 const HomeLayout = () =>{
   
-  const [data, setData] = useState([]);
+  const [dataUS, setUSData] = useState([]);
+  const [dataAr, setARData] = useState([]);
   let newsData = [];
+  let newsUSData =[];
   useEffect(() => {
-   process.env.REACT_APP_MOCK === 'true' ? setData(mockService) : apiService();
-  },[]);
 
+    if(process.env.REACT_APP_MOCK === 'true'){
+      setARData(mockService);
+      setUSData(mockService);
+    } else{
+      apiService();
+    }
+  },[]);
+   
   const apiService = async () =>{
     const apikey = process.env.REACT_APP_API_KEY;
-    const url = `https://newsapi.org/v2/top-headlines?country=us&apiKey=${apikey}`;
+    const urlUS = `https://newsapi.org/v2/top-headlines?country=us&limit=5&apiKey=${apikey}`;
+    const resUS=  await fetch(urlUS)
+    const newsUS =  await resUS.json();
+    newsUSData = newsUS.articles;
+    setUSData(newsUSData);
+
+    
+    const url = `https://newsapi.org/v2/top-headlines?country=ar&limit=5&apiKey=${apikey}`;
     const res=  await fetch(url)
     const news =  await res.json();
     newsData = news.articles;
-    setData(newsData);
+    setARData(newsData);
   };
 
     return (
       <div className="general-container">
        <Header />
         <Hero />
-        <Section />
-        <Aside news={data} />
+        <Section news={dataAr}/>
+        <Aside news={dataUS} />
        <Footer /> 
       </div>
     );
