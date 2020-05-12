@@ -1,5 +1,6 @@
 import React from 'react';
 import "./input.scss";
+
 const onChanges = (event) => {
     event.persist();
     switch(event.target.name){

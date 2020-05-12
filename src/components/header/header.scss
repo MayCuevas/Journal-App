@@ -12,7 +12,7 @@
   z-index: 1;
   grid-row-start: 1;
   grid-row-end: 1;
-
+  grid-column-end: span 4;
  
   &__titles{
     padding-right: 2em;

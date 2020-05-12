@@ -6,6 +6,8 @@ import Hero from "../../components/hero/hero";
 import Section from "../../components/principal/principal";
 import mockService from "../../common/services/mockService";
 
+import Header from "../../components/header/header";
+import Footer from "../../components/footer/footer";
 
 
 const HomeLayout = () =>{
@@ -27,10 +29,11 @@ const HomeLayout = () =>{
 
     return (
       <div className="general-container">
+       <Header />
         <Hero />
         <Section />
-
         <Aside news={data} />
+       <Footer /> 
       </div>
     );
   }

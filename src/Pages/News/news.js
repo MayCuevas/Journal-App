@@ -1,5 +1,7 @@
 import React from "react";
 import "./news.scss";
+import Header from "../../components/header/header";
+import Footer from "../../components/footer/footer";
 
 import Aside from "../../components/aside/aside";
 
@@ -7,11 +9,9 @@ const NewsLayout = () =>{
     return (
      
       <div className="general-container">
-            
-             <Aside></Aside>
-          {/* <arcticle></arcticle>
-          
-          <weather></weather> */}
+        <Header />
+          <Aside />
+        <Footer />
       </div>
     );
   }
