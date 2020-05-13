@@ -1,12 +1,12 @@
 import React from 'react';
 import "./input.scss";
-
 const onChanges = (event) => {
     event.persist();
     switch(event.target.name){
         case 'email': 
             
-            if(event.target.value == "" || !event.target.value.match(/^([\w.%+-]+)@([\w-]+\.)+([\w]{2,})$/i )){
+            if(event.target.value.length == "" ||
+            !event.target.value.match(/^([\w.%+-]+)@([\w-]+\.)+([\w]{2,})$/i )){
                 console.log('the value is wrong');
                 event.target.className = "general-input__error";
             }
@@ -18,7 +18,7 @@ const onChanges = (event) => {
 
         case 'message':
             
-            if(event.target.value == ""){
+            if(event.target.value == "" || event.target.value.length <=30){
                 event.target.className = "message-input__error"
                 console.log('Por favor llena este campo');
             }
@@ -48,6 +48,7 @@ const Input = (props) =>{
         name={props.value.name}
         className={props.value.className}
         onChange={onChanges}
+        onBlur={onChanges}
     />
     );
 };

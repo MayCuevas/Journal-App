@@ -4,7 +4,7 @@ import items from "../../common/data/categories.json";
 import {Link} from "react-router-dom";
 
 const links = items.map((item) => (
-  <Link to="/news"><li className="menu__list--link">{item}</li></Link>
+  <Link key={item} to="/news"><li className="menu__list--link">{item}</li></Link>
 ));
 const Header = (props) => {
   return (

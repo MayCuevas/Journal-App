@@ -24,9 +24,10 @@ const HomeLayout = () =>{
     } else{
       apiService();
     }
-  },[]);
+  },[])
    
   const apiService = async () =>{
+
     const apikey = process.env.REACT_APP_API_KEY;
     const urlUS = `https://newsapi.org/v2/top-headlines?country=us&limit=5&apiKey=${apikey}`;
     const resUS=  await fetch(urlUS)

@@ -2,6 +2,7 @@
         .submit-input{
             margin: 1em;
             padding: .4em 1em;
+            box-sizing: border-box;
             background-color: orange;
             border: none;
             border-radius: 5px;
@@ -12,14 +13,16 @@
             padding: .5em;
             margin: 1em;
             background-color: #ececec;;
-            border : solid 1px gray;
+            border : solid  gray;
+            box-sizing: border-box;
             border-radius: 5px;
 
             &__error{
                 background-color: #ececec;
                 padding: .5em;
+                box-sizing: border-box;
                 margin: 1em;
-                border: solid 1px red;
+                border: solid  red;
                 border-radius: 5px;
             }
         }
@@ -28,12 +31,15 @@
             margin: 1em;
             border-radius: 5px;
             background-color: #ececec;
+            border: solid #ececec;
+            box-sizing: border-box;
             
             &__error{
                 background-color: #ececec;
+                box-sizing: border-box;
                 padding: 3em;
                 margin: 1em;
-                border: solid 1px red;
+                border: solid  red;
                 border-radius: 5px;
             }
         }

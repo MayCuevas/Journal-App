@@ -8,7 +8,7 @@ const Aside = ({news}) => {
     <div className="news-wrapper">
       <h2 className="news-wrapper__title">World-news</h2>
            {news.map((data) => (
-      <div className="news">
+      <div key={data.title} className="news">
         <h2 className="news__subtitle">{data.title}</h2>
         <h1 className="news__title">{data.content}</h1>
         <img className="news__img"

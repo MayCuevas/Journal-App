@@ -8,7 +8,8 @@
   color: #ececec;
   display: inline-flex;
   flex-direction: column;
-
+  box-sizing: border-box;
+  
   .news-wrapper{
     display: inline-flex;
     flex-direction: column;
