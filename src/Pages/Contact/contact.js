@@ -9,7 +9,6 @@ const ContactLayout = () => {
 return(
     <div className ="contact-container">
         <Header />
-        <h1>Contact us </h1>
         <Form />
         <Footer />
     </div>

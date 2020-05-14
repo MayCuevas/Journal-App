@@ -9,8 +9,13 @@ const Article = () =>{
     console.log(news)
 return(
 <div className="article-container">
-<h1 className="article-title">{news.title}</h1>
-<p>{news.content}</p>
+    <div className="article">
+        <h1 className="article__title">{news.title}</h1>
+        <p className="article__content">{news.content}</p>
+        <img className="article__img"
+        alt="articleImg"
+        src={news.image} />
+    </div>
 </div>
 );
 };

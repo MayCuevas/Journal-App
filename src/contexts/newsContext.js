@@ -7,15 +7,13 @@ const NewsContextProvider = (props) => {
    const[news,setNews]= useState({
         title:"Noticia-Title",
         content:"noticia-content",
-        image: ""
+        image: "/patito.jpg"
     })
 
-    const updateState = (props) =>{
-        setNews(props);
-    };
+   
 
     return(
-        <NewsContext.Provider value ={{news, updateState}}>
+        <NewsContext.Provider value ={{news}}>
         {props.children}
         </NewsContext.Provider>
     );

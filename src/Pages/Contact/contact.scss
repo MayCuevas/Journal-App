@@ -1,14 +1,10 @@
 .contact-container{
-    display: flex;
-    flex-direction: column;
     grid-column-start: 1;
-
 }
 
 @media screen and (min-width:640px){
     
     .contact-container{
          grid-column-end: span 4;
-       grid-template-columns: repeat(4,1fr);
     }
   }

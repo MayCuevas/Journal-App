@@ -7,15 +7,13 @@ import { NewsContext } from "../../contexts/newsContext";
 
 const Section = ({news}) => {
 
-  const newsData = useContext(NewsContext);
-
   return (
     <div className="principal-section">
        {news.map((data) => (
     <article key={data.title} className="principal-section__article">
      <Link className="principal-section__link" to={{
        pathname:`/news/${data.title}`
-      }}>
+      }} >
         <img className="principal-section__article--img"
         alt="aside-news"
         src={data.urlToImage} />

@@ -9,8 +9,26 @@
     width: 100%;
     box-sizing: border-box;
     height: 400px;
-    .article-title{
+}
+
+.article{
+
+    background-color: #0f151d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3em;
+
+    .article__title{
         color: white;
         margin:1em;
+    }
+    .article__content{
+        color:white;
+        margin: .5em;
+    }
+    .article__img{
+        width: 100px;
     }
 }
