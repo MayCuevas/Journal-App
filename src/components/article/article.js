@@ -1,8 +1,18 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import './article.scss';
+import { NewsContext } from '../../contexts/newsContext';
+
+
 
 const Article = () =>{
-return(<h1>Holi</h1>);
-}
+    const {news} = useContext(NewsContext);
+    console.log(news)
+return(
+<div className="article-container">
+<h1 className="article-title">{news.title}</h1>
+<p>{news.content}</p>
+</div>
+);
+};
 
 export default Article

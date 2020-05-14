@@ -1,19 +1,20 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./principal.scss";
 
 import {Link} from "react-router-dom";
+import { NewsContext } from "../../contexts/newsContext";
 
 
 const Section = ({news}) => {
+
+  const newsData = useContext(NewsContext);
+
   return (
     <div className="principal-section">
        {news.map((data) => (
     <article key={data.title} className="principal-section__article">
      <Link className="principal-section__link" to={{
-       pathname:`/news/${data.title}`,
-       state : {title : data.title,
-                image:data.urlToImage,
-                content:data.content}
+       pathname:`/news/${data.title}`
       }}>
         <img className="principal-section__article--img"
         alt="aside-news"

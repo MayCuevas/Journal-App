@@ -1,5 +1,5 @@
 
-  .general-container{
+  .home-container{
     display: grid;
     grid-template-rows: repeat(15% 20% 50% 15%);
     contain: content;
@@ -12,7 +12,7 @@
   
   @media screen and (min-width:640px){
     
-    .general-container{
+    .home-container{
       grid-row-start: 1;
       grid-column-end: span 4;
        grid-template-columns: repeat(4,1fr);

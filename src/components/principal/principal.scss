@@ -44,12 +44,8 @@ align-items:center;
         display: flex;
         align-items: center;
         grid-column-start: 1;
-        grid-column-end: span 2;
-        grid-row-start: 2;
-        grid-column-end: 4;
-        margin: 1em;
-
-      
+        grid-column-end: span 3;
+        grid-row-start: 2;      
         &__article{
             width: 70%;
         }

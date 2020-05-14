@@ -44,7 +44,7 @@ const HomeLayout = () =>{
   };
 
     return (
-      <div className="general-container">
+      <div className="home-container">
        <Header />
         <Hero />
         <Section news={dataAr}/>
