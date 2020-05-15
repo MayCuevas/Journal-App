@@ -1,20 +1,20 @@
 import React, { useContext } from 'react';
 import './article.scss';
-import { NewsContext } from '../../contexts/newsContext';
+import UseData from '../../common/hooks/useData';
 
 
 
 const Article = () =>{
-    const {news} = useContext(NewsContext);
-    console.log(news)
+    const {article} = UseData();
+    console.log(article);
 return(
 <div className="article-container">
     <div className="article">
-        <h1 className="article__title">{news.title}</h1>
-        <p className="article__content">{news.content}</p>
+        <h1 className="article__title">{article.title}</h1>
+        <p className="article__content">{article.content}</p>
         <img className="article__img"
         alt="articleImg"
-        src={news.image} />
+        src={article.image} />
     </div>
 </div>
 );

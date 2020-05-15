@@ -1,7 +1,7 @@
 let inputData = {
     inputEmail:{
         type : "email",
-        placeholder : "inserta un email valido",
+        placeholder : "inserta tu email",
         name : "email",
         className : "general-input"
     },

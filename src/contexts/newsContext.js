@@ -1,25 +1,21 @@
-import React,{createContext,useEffect,useState, useMemo} from 'react';
+import React,{createContext,useState} from 'react';
 
-export const NewsContext = createContext();
+const NewsContext = createContext();
 
-const NewsContextProvider = (props) => {
+const NewsContextProvider = ({children}) => {
 
-   const[news,setNews]= useState({
-        title:"Noticia-Title",
-        content:"noticia-content",
-        image: "/patito.jpg"
+   const [news,setNews]= useState({
+      article:{}
     })
-
-   
-
+    
     return(
-        <NewsContext.Provider value ={{news}}>
-        {props.children}
+        <NewsContext.Provider value ={[news,setNews]}>
+            {children}
         </NewsContext.Provider>
     );
 }
-
-export default NewsContextProvider;
+export default NewsContext
+export { NewsContextProvider }
 
 
 
